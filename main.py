@@ -9,3 +9,13 @@ def func(x):
     print(x ** 5)
 
 func(2)
+f1(5, 9)
+
+def f23(x, y, z):
+    print(x, y, z)
+    x *= y
+    y **= z
+    z += x
+    print(x, y, z)
+
+f23(3, 4, 5)
