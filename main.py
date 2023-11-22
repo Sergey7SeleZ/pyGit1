@@ -1,15 +1,18 @@
 print("Hello git!")
 
+
 def f1(x, y):
     print(x + y)
 
 f1(2, 3)
+f1(5, 9)
+
 
 def func(x):
     print(x ** 5)
 
 func(2)
-f1(5, 9)
+
 
 def f23(x, y, z):
     print(x, y, z)
